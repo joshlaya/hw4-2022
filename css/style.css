@@ -198,7 +198,6 @@ first div in the grid  and place it in the grid. */
     grid-row: 5;
   }  
   .text-block{
-
     text-align: center;
     justify-content: center;
     box-sizing: content-box;
