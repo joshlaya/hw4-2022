@@ -27,6 +27,13 @@ body{
   padding: 0 100px;
   text-align: center;
 }
+.skip{
+  background-color: lightgray !important;
+}
+
+header{
+  background-color: lightgray !important;
+}
 
 div > h1{
   font-size: 50px;
@@ -204,7 +211,9 @@ first div in the grid  and place it in the grid. */
     width:fit-content;
     height: fit-content;
   }
-
+  nav ul{
+    padding-bottom: 18px;
+  }
 }
   /* Step 9: Write the selector/rule property to style the nav element */
 
@@ -224,6 +233,8 @@ first div in the grid  and place it in the grid. */
     justify-content: right;
     padding-top: 18px;
     padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .container{
     grid-template-columns: 50px auto 500px auto 50px;
